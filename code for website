@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangharsh More</title>
+</head>
+<link rel="stylesheet" href="project1.css">
+<style>
+    /* CSS reset */
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://images.wallpaperscraft.com/image/single/cosmonaut_astronaut_art_134410_2048x1152.jpg');
+        height: 1000px;
+        width: 1000px;
+
+    }
+
+    .left {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        /* border: 2px solid red; */
+        display: inline-block;
+        font-size: 35px;
+    }
+
+    .left img {
+        width: 190px;
+
+        /* if we want change logo white to black then use filter:invert(100%) */
+        /* filter: invert(100%); */
+    }
+
+    .mid {
+        display: block;
+        width: 72%;
+        margin: 34px auto;
+        margin-left: 313px;
+        /* border: 2px solid rgb(160, 242, 185); */
+    }
+
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .paragraph {
+        /* border: 3px solid white; */
+        padding: 34px;
+        margin: 54px;
+        margin-top: 89px;
+        width: 53%;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- leftbox for logo -->
+        <div class="left">
+            <!-- i am left -->
+            <img src="https://media.licdn.com/dms/image/D4D03AQHVcsOghRM0vw/profile-displayphoto-shrink_800_800/0/1679116567130?e=2147483647&v=beta&t=fnB8x7EfUPkYI27d9rQN3Sa6WCc2Bm6Lchqy4SuJ1Fw" alt="">
+
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <!-- i am mid -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Gallary</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Resource</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="paragraph">
+            <p>
+                *Chandrayaan-3: India's Lunar Aspiration*
+                <br>
+                <br>
+
+                Chandrayaan-3 is India's third lunar mission, following the successes of Chandrayaan-1 and
+                Chandrayaan-2. Its primary objective is to achieve a successful soft landing on the Moon, aiming to
+                rectify the challenges faced during the Chandrayaan-2 mission, which experienced a landing failure with
+                the Vikram lander.
+                <br>
+                <br>
+
+                The mission's scientific goals encompass comprehensive lunar exploration. It intends to conduct
+                geological studies, analyze the lunar surface's composition, investigate the distribution of water and
+                ice, and monitor lunar seismic activity using seismometers. To accomplish these objectives,
+                Chandrayaan-3 is expected to comprise a lander and a rover, each equipped with scientific instruments.
+                <br>
+                <br>
+
+                Chandrayaan-3 represents a significant advancement in India's space exploration capabilities, building
+                on the knowledge and expertise gained from previous lunar missions. While a specific launch date has not
+                been announced, ISRO continues to diligently work on improving the mission's chances of a successful
+                lunar landing.
+                <br>
+                <br>
+                This mission is pivotal in expanding our understanding of the Moon's geological history, its potential
+                as a resource for future lunar exploration, and its internal structure. It underscores India's
+                commitment to space exploration and its aspiration to contribute valuable data to the global scientific
+                community. For up-to-date information, refer to official announcements from ISRO.
+            </p>
+        </div>
+    </header>
+
+</body>
+
+</html>
